@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    
     <title>Weather App</title>
+    <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="weather"></div>
-        <div class="card"></div>
-        <div class="select">
-            
-            <div class="selectDiv">
-                <select class="selectCity"></select>
-            </div>
+    <div class="select">
 
-        </div>
+            <select class="selectCity" ></select>
+    </div>
+    
+    <div class="display" id="display">
+        <h1 class="name"></h1>
+        <img class="icon"></img> 
+        <p class="desc"></p>
+        <p class="temp"></p>
+        
+    </div>
+
     <script src="./citiesList.js" type="module"></script>
     <script src="./card.js"type="module"></script>
-    <script src="./dataAPI.js"type="module"></script>
 </body>
 
 </html>

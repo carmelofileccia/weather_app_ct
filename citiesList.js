@@ -1,6 +1,8 @@
-let select = document.querySelector('select');
+//ARRAY NOME/VALORE
+const select = document.querySelector('select');
 
-const cities = [
+export const cities = [
+    {name:"Seleziona una città!"},
     {name:"Catania", value:"catania"},
     {name:"Aci Bonaccorsi", value: "aci+bonaccorsi"},
     {name:"Aci Castello", value:"aci+castello"},
@@ -60,7 +62,7 @@ const cities = [
     {name:"Vizzini", value:"vizzini"},
     {name:"Zafferana Etnea", value:"zafferena+etnea"},
 ];
-
-const options = cities.map(city =>`<option>${city.name}</option>`).join("");
+//POPOLO OPTIONS
+export const options = cities.map(city =>`<option>${city.name}</option>`).join("");
 select.innerHTML = options;
 

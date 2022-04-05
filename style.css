@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding-left: 0;
+    viewport-fit: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-image: url("./image/background_image.jpg");
+}
+
+.select {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#display {
+    justify-content: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
