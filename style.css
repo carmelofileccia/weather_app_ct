@@ -7,11 +7,14 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-image: url("./image/background_image.jpg");
+    background-image: url("./image/tex_s_3_300_91.jpg");
 }
-
+.selectiontitle{
+     
+     margin-bottom: 20px;
+}
 .selectCity {
-    margin-top: 40px;
+   margin-top: 30px;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
@@ -28,11 +31,13 @@ body {
     margin: 0 auto;
     box-shadow: 5px 5px 10px 0px #000000;
     backdrop-filter: blur();
+    
 }
 .name {
     padding: 30px 30px 0 30px ;
     /* color: rgb(14, 98, 112); */
-    color: rgb(0, 0, 0);
+    color: #626262;
+    font-weight: 300;
 }
 .temp {
     font-size: 20px;
@@ -42,7 +47,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     padding: 0px 30px 10px 30px ;
-    color: black;
+    color: #626262;
 }
 .header {
     justify-content: center;
@@ -50,13 +55,13 @@ body {
     border-radius: 0px 0px 10px 10px;
     width: 100%;
     height: auto;
-
     box-shadow: 5px 5px 10px 0px #000000;
     backdrop-filter: blur();
 }
 
-.logometeo{
+.logometeo {
     padding: 10px 10px 0px 10px;
+    max-width: 500px;
 }
 .subtitle{
     padding: 0px 10px 10px 10px;
@@ -66,4 +71,26 @@ body {
     padding: 30px;
     width: 300px;
     border-radius: 200px;
+
+}
+
+.story{
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+
+footer {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 30px;
+    height: auto;
+    box-shadow: 10px 5px 10px 0px #000000;
+    backdrop-filter: blur();
+}
+footer p {
+    text-align: center;
+    color:#000000;
+    font-size: 12px;
 }
