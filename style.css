@@ -10,15 +10,17 @@ body {
     background-image: url("./image/background_image.jpg");
 }
 
-.select {
+.selectCity {
+    margin-top: 40px;
     text-align: center;
-    padding: 50px;
-    
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
 }
 
 #display {
     justify-content: center;
-    background-color: rgba(150, 223, 236, 0.246);;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 400px;
     height: auto;
@@ -41,6 +43,26 @@ body {
     padding: 0px 30px 10px 30px ;
     color: black;
 }
-.icon {
-    
+.header {
+    justify-content: center;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: auto;
+
+    box-shadow: 5px 5px 10px 0px #000000;
+    backdrop-filter: blur();
+}
+
+.logometeo{
+    padding: 10px 10px 0px 10px;
+}
+.subtitle{
+    padding: 0px 10px 10px 10px;
+}
+
+.imgGif {
+    padding: 30px;
+    width: 300px;
+    border-radius: 200px;
 }

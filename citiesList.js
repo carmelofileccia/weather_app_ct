@@ -2,7 +2,7 @@
 const select = document.querySelector('select');
 
 export const cities = [
-    {name:"Seleziona una città!"},
+    {name:"Seleziona una città", value:""},
     {name:"Catania", value:"catania"},
     {name:"Aci Bonaccorsi", value: "aci+bonaccorsi"},
     {name:"Aci Castello", value:"aci+castello"},
