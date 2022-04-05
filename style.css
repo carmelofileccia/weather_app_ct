@@ -16,6 +16,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     width: 400px;
+    cursor: pointer;;
 }
 
 #display {
