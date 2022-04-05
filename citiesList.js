@@ -63,5 +63,4 @@ const cities = [
 
 const options = cities.map(city =>`<option>${city.name}</option>`).join("");
 select.innerHTML = options;
-join("")
 
