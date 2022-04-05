@@ -18,7 +18,29 @@ body {
 
 #display {
     justify-content: center;
-    width: 50%;
-    background-color: white;
+    background-color: rgba(150, 223, 236, 0.246);;
     border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px 0px #000000;
+    backdrop-filter: blur();
+}
+.name {
+    padding: 30px 30px 0 30px ;
+    /* color: rgb(14, 98, 112); */
+    color: rgb(0, 0, 0);
+}
+.temp {
+    font-size: 20px;
+    padding: 0px 30px 30px 30px ;
+}
+.desc {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 30px 10px 30px ;
+    color: black;
+}
+.icon {
+    
 }
