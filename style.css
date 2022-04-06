@@ -9,51 +9,6 @@ body {
     text-align: center;
     background-image: url("./image/tex_s_3_300_91.jpg");
 }
-.selectiontitle{
-     
-     margin-bottom: 20px;
-}
-.selectCity {
-   margin-top: 30px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    width: 400px;
-    cursor: pointer;;
-}
-
-#display {
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 400px;
-    height: auto;
-    margin: 0 auto;
-    box-shadow: 5px 5px 10px 0px #000000;
-    backdrop-filter: blur();
-    
-}
-.name {
-    padding: 30px 30px 0 30px ;
-    /* color: rgb(14, 98, 112); */
-    color: #626262;
-    font-weight: 300;
-}
-.temp {
-    font-size: 20px;
-    padding: 0px 30px 30px 30px ;
-}
-.desc {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 0px 30px 10px 30px ;
-    color: #626262;
-}
-.hum {
-    font-size: 15px;
-    padding: 10px 30px 0px 30px ;
-    color: #626262; 
-}
 .header {
     display: block;
     justify-content: center;
@@ -68,23 +23,71 @@ body {
 .logometeo {
     padding: 10px 10px 0px 10px;
     max-width: 500px;
-}
-.subtitle{
-    padding: 0px 10px 10px 10px;
+    transition: 1s linear;
 }
 
+.selectiontitle{
+     margin-bottom: 20px;
+}
+.selectCity {
+   margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    cursor: pointer;;
+}
+
+#display {
+    justify-content: center;
+    background-color: #0087d5c7;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px 0px #000000;
+    backdrop-filter: blur();
+    
+}
+.name {
+    padding: 30px 30px 0 30px ;
+    /* color: rgb(14, 98, 112); */
+    color: #ffffff;
+    font-weight: 300;
+}
+.temp {
+    font-size: 20px;
+    padding: 0px 30px 30px 30px ;
+    color: #ffffff;
+}
+.desc {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 30px 10px 30px ;
+    color: #ffffff;
+}
+.hum {
+    font-size: 15px;
+    padding: 10px 30px 20px 30px ;
+    color: #ffffff; 
+}
+.icon{
+    background-color: rgba(255, 255, 255, 0.553);
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
 .imgGif {
-    padding: 30px;
-    width: 300px;
-    border-radius: 200px;
-
+    padding: 30px 30px 30px 30px;
+    width: 100px;
+    border-radius: 50px;
 }
-
-
 footer {
+    bottom:0;
+    position: absolute;
+    width: 100%;
     padding: 50px;
     background-color: rgb(255, 255, 255);;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     margin-top: 30px;
     height: auto;
     box-shadow: 10px 5px 10px 0px #000000;
@@ -101,13 +104,16 @@ footer p {
         padding: 10px 10px 0px 10px;
         max-width: 300px;
     }
-
     #display {
-        width: 300px;
+        width: auto;
+        margin: 0 40px 0 40px;
     }
-
     .selectCity {
-         width: 300px;
-     }
+         width: auto;
+         
+    }
+    footer {
+        padding: 20px 0 20px 0;
+    }
 
 }
