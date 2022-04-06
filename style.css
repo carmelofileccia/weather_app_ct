@@ -49,7 +49,13 @@ body {
     padding: 0px 30px 10px 30px ;
     color: #626262;
 }
+.hum {
+    font-size: 15px;
+    padding: 10px 30px 0px 30px ;
+    color: #626262; 
+}
 .header {
+    display: block;
     justify-content: center;
     background-color: rgb(255, 255, 255);;
     border-radius: 0px 0px 10px 10px;
@@ -74,11 +80,6 @@ body {
 
 }
 
-.story{
-    max-width: 400px;
-    margin-top: 30px;
-}
-
 
 footer {
     padding: 50px;
@@ -93,4 +94,20 @@ footer p {
     text-align: center;
     color:#000000;
     font-size: 12px;
+}
+
+@media all and (max-width: 990px) {
+    .logometeo {
+        padding: 10px 10px 0px 10px;
+        max-width: 300px;
+    }
+
+    #display {
+        width: 300px;
+    }
+
+    .selectCity {
+         width: 300px;
+     }
+
 }
