@@ -3,11 +3,10 @@
     padding-left: 0;
     viewport-fit: 100%;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-image: url("./image/tex_s_3_300_91.jpg");
+    /* background-image: url("./image/tex_s_3_300_91.jpg"); */
 }
 .header {
     display: block;
@@ -19,13 +18,11 @@ body {
     box-shadow: 5px 5px 10px 0px #000000;
     backdrop-filter: blur();
 }
-
 .logometeo {
     padding: 10px 10px 0px 10px;
     max-width: 500px;
     transition: 1s linear;
 }
-
 .selectiontitle{
      margin-bottom: 20px;
 }
@@ -37,20 +34,19 @@ body {
     width: 400px;
     cursor: pointer;;
 }
-
 #display {
     justify-content: center;
     background-color: #0087d5c7;
     border-radius: 10px;
     width: 400px;
-    height: auto;
+    min-height: 400px;
     margin: 0 auto;
     box-shadow: 5px 5px 10px 0px #000000;
     backdrop-filter: blur();
-    
+    z-index: 2;
 }
 .name {
-    padding: 30px 30px 0 30px ;
+    padding: 50px 30px 0 30px ;
     /* color: rgb(14, 98, 112); */
     color: #ffffff;
     font-weight: 300;
@@ -83,8 +79,8 @@ body {
 }
 footer {
     bottom:0;
-    position: absolute;
-    width: 100%;
+    position: relative;
+    width: auto;
     padding: 50px;
     background-color: rgb(255, 255, 255);;
     border-radius: 10px 10px 0px 0px;
@@ -92,6 +88,8 @@ footer {
     height: auto;
     box-shadow: 10px 5px 10px 0px #000000;
     backdrop-filter: blur();
+    z-index: 1;
+    transform: translateY(50px);
 }
 footer p {
     text-align: center;
